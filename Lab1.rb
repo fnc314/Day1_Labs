@@ -2,6 +2,9 @@ num = rand(101)
 
 # can I use a different value in the rand(x) function?  Like rand(1..100)
 # create random numbers with larger range!!!
+
+#num = Random.new.rand(1..100) -> also works!
+
 puts "Guess a number between 1 and 100"
 guess = gets.chomp.to_i
 
