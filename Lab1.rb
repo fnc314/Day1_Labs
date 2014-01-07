@@ -26,3 +26,5 @@ elsif guess > num
 end
 end
 puts "You guessed it in #{i} tries."
+
+#cool beans
